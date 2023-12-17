@@ -19,6 +19,11 @@ public class MenuController : MonoBehaviour
         exitButton.onClick.AddListener(onExitButtonClick);
     }
 
+    private void Update()
+    {
+        
+    }
+
     private void onStartButtonClick()
     {
         SceneManager.LoadScene(gameSceneIndex);
